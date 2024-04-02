@@ -1,0 +1,66 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Tests" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+          <option value="SeleniumFrameworkDesign" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="com.google.guava:guava:31.1-jre" />
+          <option value="io.netty:netty-codec:4.1.78.Final" />
+          <option value="com.google.code.gson:gson:2.8.6" />
+          <option value="com.beust:jcommander:1.72" />
+          <option value="com.fasterxml.jackson.core:jackson-databind:2.13.3" />
+          <option value="org.testng:testng:6.14.3" />
+          <option value="commons-io:commons-io:2.6" />
+          <option value="org.apache.commons:commons-compress:1.21" />
+          <option value="org.bouncycastle:bcprov-jdk15on:1.64" />
+          <option value="io.netty:netty-handler:4.1.78.Final" />
+          <option value="org.webjars:jquery:3.7.1" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Fixed in branch" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="Purchase" />
+            <item index="1" class="java.lang.String" itemvalue="ErrorHandling" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
